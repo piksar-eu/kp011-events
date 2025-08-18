@@ -14,6 +14,5 @@ func ReserveStockOnSalesRecordedListener(e events.Event) {
 
 	payload := e.Payload.(shared.SalesRecordedPayload)
 
-	// TODO: do something
 	log.Println(payload)
 }
